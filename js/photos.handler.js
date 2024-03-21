@@ -37,7 +37,7 @@ function buildSlider(itensPorSlide, larguraItem) {
                             return itemIndex + i >= 16 ? "" : `
                             <div style="width: calc(${larguraItem}% - 1px)" class="carousel-image-container">
                                 <div class="carousel-image-overlay ${i === itensPorSlide && itemIndex === 0 ? "selected" : ""}"><h3>Nome do Doce</h3></div>
-                                <img src="../assets/${itemIndex + i}.jpeg" alt="imagem-doce">
+                                <img src="../assets/doce${itemIndex + i}.jpeg" alt="imagem-doce">
                             </div>
                             `;
                         }).toString().replace(/\,/g, "")}
