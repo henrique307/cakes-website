@@ -268,7 +268,7 @@ section.banner p.banner-description {
   background-size: cover;
   background-position: top center;
   background-repeat: no-repeat;
-  height: 50rem;
+  height: 45rem;
   width: 100%;
   transition: all 500ms linear;
   margin-bottom: 5px;
@@ -277,10 +277,16 @@ section.banner p.banner-description {
   .photos .main-photo {
     height: 40rem;
   }
+  .photos div.carousel-inner {
+    height: 13.3333333333rem;
+  }
 }
 @media (width < 500px) {
   .photos .main-photo {
-    height: 25rem;
+    height: 35rem;
+  }
+  .photos div.carousel-inner {
+    height: 11.6666666667rem;
   }
 }
 .photos .carousel {
